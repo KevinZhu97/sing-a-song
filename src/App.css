@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+}
+
+/* header.js */
+.header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00a8FF;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+    filter: brightness(0) invert(1);
+}
+
+.authenticate-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 1.1rem;
+    color: white;
+    padding: 1rem;
+}
+
+/* .authentication-container {
+    background-color: red;
+} */
+
+/* searchBar.js */
+.search-bar-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background-color: #1eb2ff;
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    filter: brightness(0) invert(1);
+}
+
+/* homepage.js */
+.homepage {
+    height: 90vh;
+    background-color: #00a8FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-text {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    max-width: 50%;
+    text-align: center;
+}
+
+/* searchPage.js */
+
+.search-page {
+    background-color: #00a8FF;
+    color: white;
+}
+
+/* trackCard.js */
+.track-card {
+    display: flex;
+    padding: 2rem;
+    outline: 1px black solid;
+}
+
+.album-cover {
+    height: 10rem;
+    width: 10rem;
+}
+
+.track-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* lyricsPage.js */
+.card-text {
+    white-space: pre-line;
+}
