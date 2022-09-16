@@ -46,6 +46,11 @@ a {
     padding: 1rem;
 }
 
+.signed-in-container {
+    display: flex;
+    align-items: center;
+}
+
 /* .authentication-container {
     background-color: red;
 } */

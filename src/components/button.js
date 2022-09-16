@@ -2,7 +2,7 @@
 
 const Button = (props) => {
     return (
-        <button type="button" className="authenticate-button">{props.purpose}</button>
+        <button onClick={props.onClick} type="button" className="authenticate-button">{props.purpose}</button>
     )
 }
 

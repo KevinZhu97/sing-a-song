@@ -5,7 +5,7 @@ const SearchBar = (props) => {
 
     async function fetchMusicData() {
         const searchTrack = getInputValue()
-        const response = await fetch(`https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.search?q=${searchTrack}&f_has_lyrics=1&s_track_rating=desc&s_artist_rating=desc&apikey=${props.apiKey}`, {
+        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?q=${searchTrack}&f_has_lyrics=1&s_track_rating=desc&s_artist_rating=desc&apikey=${props.apiKey}`, {
             mode: 'cors'
         });
         const musicInfo = await response.json()
